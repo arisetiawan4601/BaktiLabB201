@@ -4,18 +4,151 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="@string/opencv_demo"
+        android:text="Semester 1"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <RelativeLayout
+        android:layout_width=""
+        android:layout_height=""
+        android:padding="30dp"
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Selamat Datang!"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:layout_width="261dp"
+        android:layout_height="42dp"
+        android:text="Dwi Ari Setiawan"
+        android:textSize="28dp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="255dp"
+        android:layout_height="28dp"
+        android:text="Teknik Komputer"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="255dp"
+        android:layout_height="28dp"
+        android:text="07211940000036"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="105dp"
+        android:layout_height="107dp"
+        android:src="@drawable/ProfilePicture"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="101dp" />
+    <RelativeLayout/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="439dp"
+        android:layout_height="97dp"
+        android:src="@drawable/CourseList"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="439dp"
+        android:layout_height="97dp"
+        android:src="@drawable/CourseList"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="439dp"
+        android:layout_height="97dp"
+        android:src="@drawable/CourseList"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="439dp"
+        android:layout_height="97dp"
+        android:src="@drawable/CourseList"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="576dp" />
+
+    <TextView
+        android:layout_width="261dp"
+        android:layout_height="42dp"
+        android:text="Fisika I"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="261dp"
+        android:layout_height="42dp"
+        android:text="Matematika I"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="261dp"
+        android:layout_height="42dp"
+        android:text="Pancasila"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="261dp"
+        android:layout_height="42dp"
+        android:text="Dasar Pemrograman"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="360dp"
+        android:layout_height="62dp"
+        android:src="@drawable/AddButton"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="682dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

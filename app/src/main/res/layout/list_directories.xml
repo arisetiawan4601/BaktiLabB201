@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#E91E63"
+    android:scrollbarThumbHorizontal="@drawable/abc_vector_test"
+    tools:context=".list_direcotories">
+
+    <TextView
+        android:layout_width="84dp"
+        android:layout_height="37dp"
+        android:text="< Back"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="84dp"
+        android:layout_height="37dp"
+        android:text="Fisika I"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="362dp"
+        android:layout_height="142dp"
+        android:src="@drawable/CourseListDirectories"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="362dp"
+        android:layout_height="142dp"
+        android:src="@drawable/CourseListDirectories"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="362dp"
+        android:layout_height="142dp"
+        android:src="@drawable/CourseListDirectories"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="362dp"
+        android:layout_height="142dp"
+        android:src="@drawable/CourseListDirectories"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="251dp"
+        android:layout_height="83dp"
+        android:text="Kuis I\nDr. Rama S.T., M.T."
+        android:textColor="@android:color/background_dark"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="251dp"
+        android:layout_height="83dp"
+        android:text="Kuis I\nDr. Rama S.T., M.T."
+        android:textColor="@android:color/background_dark"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="251dp"
+        android:layout_height="83dp"
+        android:text="Kuis I\nDr. Rama S.T., M.T."
+        android:textColor="@android:color/background_dark"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="251dp"
+        android:layout_height="83dp"
+        android:text="Kuis I\nDr. Rama S.T., M.T."
+        android:textColor="@android:color/background_dark"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="362dp"
+        android:layout_height="142dp"
+        android:src="@drawable/ListDirectoriesButton"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="612dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

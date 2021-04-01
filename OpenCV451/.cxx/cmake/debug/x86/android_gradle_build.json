@@ -1,38 +1,38 @@
 {
   "stringTable": {
-    "0": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86",
-    "1": "--target=i686-none-linux-android21 --gcc-toolchain=/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+    "0": "D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android21 --gcc-toolchain=C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
   },
   "buildFiles": [
-    "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
-    "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-    "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+    "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\libcxx_helper\\CMakeLists.txt",
+    "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
   ],
   "cleanCommands": [
-    "/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86\" clean"
+    "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\debug\\x86\" clean"
   ],
-  "buildTargetsCommand": "/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "opencv_jni_shared-Debug-x86": {
-      "buildCommand": "/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86\" opencv_jni_shared",
+      "buildCommand": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\debug\\x86\" opencv_jni_shared",
       "buildType": "debug",
-      "toolchain": "1930195888",
+      "toolchain": "3163842620",
       "abi": "x86",
       "artifactName": "opencv_jni_shared",
       "files": [
         {
-          "src": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/dummy.cpp",
+          "src": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\libcxx_helper\\dummy.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [],
-      "output": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86/libopencv_jni_shared.a"
+      "output": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\debug\\x86\\libopencv_jni_shared.a"
     }
   },
   "toolchains": {
-    "1930195888": {
-      "cppCompilerExecutable": "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    "3163842620": {
+      "cppCompilerExecutable": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
     }
   },
   "cFileExtensions": [],
