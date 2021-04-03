@@ -1,46 +1,46 @@
 The target system is: Android - 1 - armv7-a
-The host system is: Windows - 10.0.19042 - AMD64
+The host system is: Linux - 5.8.0-48-generic - x86_64
 Determining if the C compiler works passed with the following output:
-Change Dir: D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_3e857"
-[1/2] Building C object CMakeFiles/cmTC_3e857.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_3e857
+Run Build Command:"/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_cc5e6"
+[1/2] Building C object CMakeFiles/cmTC_cc5e6.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_cc5e6
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_c616a"
-[1/2] Building C object CMakeFiles/cmTC_c616a.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_c616a
-Android (6317467 based on r365631c1) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project e0caee08e5f09b374a27a676d04978c81fcb1928) (based on LLVM 9.0.8svn)
-Target: armv7-none-linux-android21
-Thread model: posix
-InstalledDir: C:\Users\hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin
-Found candidate GCC installation: C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
-Selected GCC installation: C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
-Candidate multilib: thumb;@mthumb
-Candidate multilib: armv7-a;@march=armv7-a
-Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
-Candidate multilib: .;
-Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
- "C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_c616a "C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21\\crtbegin_dynamic.o" "-LC:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\arm" -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_c616a.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21\\crtend_android.o"
+Run Build Command:"/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a9952"
+[1/2] Building C object CMakeFiles/cmTC_a9952.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_a9952
+Android (6317467 based on r365631c1) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project e0caee08e5f09b374a27a676d04978c81fcb1928) (based on LLVM 9.0.8svn)
+Target: armv7-none-linux-android21
+Thread model: posix
+InstalledDir: /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
+ "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_a9952 /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/lib/linux/arm -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_a9952.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_c616a"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_c616a.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_c616a]
+  ignore line: [Run Build Command:"/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a9952"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_a9952.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_a9952]
   ignore line: [Android (6317467 based on r365631c1) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project e0caee08e5f09b374a27a676d04978c81fcb1928) (based on LLVM 9.0.8svn)]
   ignore line: [Target: armv7-none-linux-android21]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: C:\Users\hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin]
-  ignore line: [Found candidate GCC installation: C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
-  ignore line: [Selected GCC installation: C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [InstalledDir: /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   ignore line: [Candidate multilib: thumb]
   ignore line: [@mthumb]
   ignore line: [Candidate multilib: armv7-a]
@@ -51,9 +51,9 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [Selected multilib: armv7-a/thumb]
   ignore line: [@march=armv7-a@mthumb]
-  link line: [ "C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_c616a "C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21\\crtbegin_dynamic.o" "-LC:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\arm" -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_c616a.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21\\crtend_android.o"]
-    arg [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld] ==> ignore
-    arg [--sysroot=C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+  link line: [ "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_a9952 /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/lib/linux/arm -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_a9952.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+    arg [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
     arg [-znoexecstack] ==> ignore
     arg [-EL] ==> ignore
@@ -69,17 +69,17 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c616a] ==> ignore
-    arg [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21\\crtbegin_dynamic.o] ==> ignore
-    arg [-LC:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\arm] ==> dir [C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\arm]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [cmTC_a9952] ==> ignore
+    arg [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/lib/linux/arm] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/lib/linux/arm]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
     arg [--exclude-libs] ==> ignore
     arg [libgcc.a] ==> ignore
     arg [--exclude-libs] ==> ignore
@@ -92,35 +92,35 @@ Parsed C implicit link information from above output:
     arg [libunwind.a] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_c616a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_a9952.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21\\crtend_android.o] ==> ignore
-  collapse library dir [C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\arm] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.8/lib/linux/arm]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o] ==> ignore
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/lib/linux/arm] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/lib/linux/arm]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
   implicit libs: [gcc;dl;c;gcc;dl]
-  implicit dirs: [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.8/lib/linux/arm;C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21;C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi;C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit dirs: [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/lib/linux/arm;/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21;/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi;/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_10bb3"
-[1/2] Building C object CMakeFiles/cmTC_10bb3.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_10bb3
+Run Build Command:"/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6f6ef"
+[1/2] Building C object CMakeFiles/cmTC_6f6ef.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_6f6ef
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -130,11 +130,11 @@ Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bi
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_101af"
-[1/2] Building C object CMakeFiles/cmTC_101af.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_101af
+Run Build Command:"/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_3fd6f"
+[1/2] Building C object CMakeFiles/cmTC_3fd6f.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_3fd6f
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -144,11 +144,11 @@ Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bi
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_21d5d"
-[1/2] Building C object CMakeFiles/cmTC_21d5d.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_21d5d
+Run Build Command:"/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a5d71"
+[1/2] Building C object CMakeFiles/cmTC_a5d71.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_a5d71
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -156,46 +156,46 @@ Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bi
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_070c5"
-[1/2] Building CXX object CMakeFiles/cmTC_070c5.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_070c5
+Run Build Command:"/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7c53b"
+[1/2] Building CXX object CMakeFiles/cmTC_7c53b.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_7c53b
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_86e41"
-[1/2] Building CXX object CMakeFiles/cmTC_86e41.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_86e41
-Android (6317467 based on r365631c1) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project e0caee08e5f09b374a27a676d04978c81fcb1928) (based on LLVM 9.0.8svn)
-Target: armv7-none-linux-android21
-Thread model: posix
-InstalledDir: C:\Users\hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin
-Found candidate GCC installation: C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
-Selected GCC installation: C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
-Candidate multilib: thumb;@mthumb
-Candidate multilib: armv7-a;@march=armv7-a
-Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
-Candidate multilib: .;
-Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
- "C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_86e41 "C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21\\crtbegin_dynamic.o" "-LC:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\arm" -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_86e41.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -ldl -lc -lgcc -ldl "C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21\\crtend_android.o"
+Run Build Command:"/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_5e9b3"
+[1/2] Building CXX object CMakeFiles/cmTC_5e9b3.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_5e9b3
+Android (6317467 based on r365631c1) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project e0caee08e5f09b374a27a676d04978c81fcb1928) (based on LLVM 9.0.8svn)
+Target: armv7-none-linux-android21
+Thread model: posix
+InstalledDir: /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
+ "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_5e9b3 /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/lib/linux/arm -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_5e9b3.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -ldl -lc -lgcc -ldl /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_86e41"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_86e41.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_86e41]
+  ignore line: [Run Build Command:"/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_5e9b3"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_5e9b3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_5e9b3]
   ignore line: [Android (6317467 based on r365631c1) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project e0caee08e5f09b374a27a676d04978c81fcb1928) (based on LLVM 9.0.8svn)]
   ignore line: [Target: armv7-none-linux-android21]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: C:\Users\hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin]
-  ignore line: [Found candidate GCC installation: C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
-  ignore line: [Selected GCC installation: C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [InstalledDir: /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   ignore line: [Candidate multilib: thumb]
   ignore line: [@mthumb]
   ignore line: [Candidate multilib: armv7-a]
@@ -206,9 +206,9 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [Selected multilib: armv7-a/thumb]
   ignore line: [@march=armv7-a@mthumb]
-  link line: [ "C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_86e41 "C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21\\crtbegin_dynamic.o" "-LC:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\arm" -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_86e41.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -ldl -lc -lgcc -ldl "C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21\\crtend_android.o"]
-    arg [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld] ==> ignore
-    arg [--sysroot=C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+  link line: [ "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_5e9b3 /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/lib/linux/arm -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_5e9b3.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -ldl -lc -lgcc -ldl /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+    arg [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
     arg [-znoexecstack] ==> ignore
     arg [-EL] ==> ignore
@@ -224,17 +224,17 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_86e41] ==> ignore
-    arg [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21\\crtbegin_dynamic.o] ==> ignore
-    arg [-LC:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\arm] ==> dir [C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\arm]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
-    arg [-LC:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [cmTC_5e9b3] ==> ignore
+    arg [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/lib/linux/arm] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/lib/linux/arm]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
     arg [--exclude-libs] ==> ignore
     arg [libgcc.a] ==> ignore
     arg [--exclude-libs] ==> ignore
@@ -247,7 +247,7 @@ Parsed CXX implicit link information from above output:
     arg [libunwind.a] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_86e41.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_5e9b3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -255,29 +255,29 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21\\crtend_android.o] ==> ignore
-  collapse library dir [C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\arm] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.8/lib/linux/arm]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
-  collapse library dir [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o] ==> ignore
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/lib/linux/arm] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/lib/linux/arm]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
   implicit libs: [c++;m;gcc;dl;c;gcc;dl]
-  implicit dirs: [C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.8/lib/linux/arm;C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21;C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi;C:/Users/hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit dirs: [/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/lib/linux/arm;/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21;/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi;/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_ef53e"
-[1/2] Building CXX object CMakeFiles/cmTC_ef53e.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_ef53e
+Run Build Command:"/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_49023"
+[1/2] Building CXX object CMakeFiles/cmTC_49023.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_49023
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -340,11 +340,11 @@ Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bi
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_a8e9c"
-[1/2] Building CXX object CMakeFiles/cmTC_a8e9c.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_a8e9c
+Run Build Command:"/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_e975b"
+[1/2] Building CXX object CMakeFiles/cmTC_e975b.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_e975b
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -407,11 +407,11 @@ Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bi
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_a5616"
-[1/2] Building CXX object CMakeFiles/cmTC_a5616.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_a5616
+Run Build Command:"/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_c02a2"
+[1/2] Building CXX object CMakeFiles/cmTC_c02a2.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_c02a2
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -474,11 +474,11 @@ Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bi
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_ed4a1"
-[1/2] Building CXX object CMakeFiles/cmTC_ed4a1.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_ed4a1
+Run Build Command:"/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_cb36f"
+[1/2] Building CXX object CMakeFiles/cmTC_cb36f.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_cb36f
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

@@ -1,19 +1,19 @@
 {
   "buildFiles": [
-    "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\libcxx_helper\\CMakeLists.txt",
-    "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
-    "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+    "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
   ],
   "cleanCommands": [
-    "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\debug\\x86_64\" clean"
+    "/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86_64\" clean"
   ],
-  "buildTargetsCommand": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "opencv_jni_shared-Debug-x86_64": {
       "artifactName": "opencv_jni_shared",
-      "buildCommand": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\debug\\x86_64\" opencv_jni_shared",
+      "buildCommand": "/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86_64\" opencv_jni_shared",
       "abi": "x86_64",
-      "output": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\debug\\x86_64\\libopencv_jni_shared.a",
+      "output": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86_64/libopencv_jni_shared.a",
       "runtimeFiles": []
     }
   }
