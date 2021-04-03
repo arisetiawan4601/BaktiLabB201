@@ -177,7 +177,6 @@
       "project": {
         "compilerSettingsCacheFolder": "/home/arisetiawan4601/Dev/BaktiLabB201/.cxx",
         "cxxFolder": "/home/arisetiawan4601/Dev/BaktiLabB201/.cxx",
-        "ideBuildTargetAbi": "x86",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
@@ -201,7 +200,10 @@
     "objFolder": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/build/intermediates/cmake/debug/obj",
     "variantName": "debug",
     "validAbiList": [
-      "X86"
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
     ],
     "prefabDirectory": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/debug/prefab",
     "prefabPackageDirectoryList": []
