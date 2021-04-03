@@ -1,3 +1,3 @@
-D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/arm64-v8a/CMakeFiles/opencv_jni_shared.dir
-D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
-D:/Program/AndroidStudioProject/BaktiLabB201/OpenCV451/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/arm64-v8a/CMakeFiles/opencv_jni_shared.dir

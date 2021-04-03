@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\release\\x86",
-    "cmakeServerLogFile": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\release\\x86\\cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cxx\\release\\x86",
+    "cmakeArtifactsBaseFolder": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/x86",
+    "cmakeServerLogFile": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/x86/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cxx/release/x86",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,13 +15,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\release\\x86",
-      "cmakeToolchain": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
-      "cmakeExecutable": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+      "buildRoot": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/x86",
+      "cmakeToolchain": "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\release\\prefab\\x86\\prefab"
+          "value": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/prefab/x86/prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -29,7 +29,7 @@
         },
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake"
+          "value": "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake"
         },
         {
           "name": "ANDROID_ABI",
@@ -37,7 +37,7 @@
         },
         {
           "name": "ANDROID_NDK",
-          "value": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462"
+          "value": "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462"
         },
         {
           "name": "ANDROID_PLATFORM",
@@ -49,7 +49,7 @@
         },
         {
           "name": "CMAKE_ANDROID_NDK",
-          "value": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462"
+          "value": "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462"
         },
         {
           "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -57,11 +57,11 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\build\\intermediates\\cmake\\release\\obj\\x86"
+          "value": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/build/intermediates/cmake/release/obj/x86"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
-          "value": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+          "value": "/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja"
         },
         {
           "name": "CMAKE_SYSTEM_NAME",
@@ -78,14 +78,14 @@
       ]
     }
   },
-  "cxxBuildFolder": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\release\\x86",
+  "cxxBuildFolder": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/x86",
   "info": {
     "abi": "X86",
     "bitness": 32,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\release\\x86",
+  "originalCxxBuildFolder": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/x86",
   "variant": {
     "buildSystemArgumentList": [
       "-DANDROID_STL\u003dc++_shared"
@@ -101,24 +101,24 @@
     "module": {
       "buildSystem": "CMAKE",
       "cmake": {
-        "cmakeExe": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+        "cmakeExe": "/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
         "minimumCmakeVersion": "3.10.2",
-        "ninjaExe": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+        "ninjaExe": "/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja"
       },
-      "cmakeToolchainFile": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
-      "cxxFolder": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx",
+      "cmakeToolchainFile": "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx",
       "gradleModulePathName": ":OpenCV451",
-      "intermediatesFolder": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\build\\intermediates",
-      "makeFile": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\libcxx_helper\\CMakeLists.txt",
-      "moduleBuildFile": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\build.gradle",
-      "moduleRootFolder": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451",
+      "intermediatesFolder": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/build/intermediates",
+      "makeFile": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+      "moduleBuildFile": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/build.gradle",
+      "moduleRootFolder": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
         "X86",
         "X86_64"
       ],
-      "ndkFolder": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462",
+      "ndkFolder": "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462",
       "ndkMetaAbiList": [
         {
           "abi": "ARMEABI_V7A",
@@ -175,29 +175,29 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "21.1.6352462",
       "project": {
-        "compilerSettingsCacheFolder": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\.cxx",
-        "cxxFolder": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\.cxx",
+        "compilerSettingsCacheFolder": "/home/arisetiawan4601/Dev/BaktiLabB201/.cxx",
+        "cxxFolder": "/home/arisetiawan4601/Dev/BaktiLabB201/.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "D:\\Program\\AndroidStudioProject\\BaktiLabB201",
-        "sdkFolder": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk",
+        "rootBuildGradleFolder": "/home/arisetiawan4601/Dev/BaktiLabB201",
+        "sdkFolder": "/home/arisetiawan4601/Android/Sdk",
         "isPrefabEnabled": false
       },
       "splitsAbiFilterSet": [],
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
-          "ARM64_V8A": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
-          "X86": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
-          "X86_64": "C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+          "ARMEABI_V7A": "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       }
     },
-    "objFolder": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\build\\intermediates\\cmake\\release\\obj",
+    "objFolder": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/build/intermediates/cmake/release/obj",
     "variantName": "release",
     "validAbiList": [
       "ARMEABI_V7A",
@@ -205,8 +205,8 @@
       "X86",
       "X86_64"
     ],
-    "prefabDirectory": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\release\\prefab",
+    "prefabDirectory": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\release\\prefab\\x86"
+  "prefabFolder": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/prefab/x86"
 }

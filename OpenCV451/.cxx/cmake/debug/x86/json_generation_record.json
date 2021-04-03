@@ -2,37 +2,37 @@
   {
     "level": "INFO",
     "message": "Start JSON generation. Platform version: 21 min SDK version: x86",
-    "file": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\libcxx_helper\\CMakeLists.txt",
+    "file": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
     "tag": "debug|x86"
   },
   {
     "level": "INFO",
     "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
-    "file": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\libcxx_helper\\CMakeLists.txt",
+    "file": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
     "tag": "debug|x86"
   },
   {
     "level": "INFO",
     "message": "Trying to locate CMake in local SDK repository.",
-    "file": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\libcxx_helper\\CMakeLists.txt",
+    "file": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
     "tag": "debug|x86"
   },
   {
     "level": "INFO",
-    "message": "- CMake found in SDK at \u0027C:\\Users\\hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
-    "file": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\libcxx_helper\\CMakeLists.txt",
+    "message": "- CMake found in SDK at \u0027/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
     "tag": "debug|x86"
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\.cxx\\cmake\\debug\\x86\\android_gradle_build.json\u0027 was up-to-date",
-    "file": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\libcxx_helper\\CMakeLists.txt",
+    "message": "JSON \u0027/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86/android_gradle_build.json\u0027 was up-to-date",
+    "file": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
     "tag": "debug|x86"
   },
   {
     "level": "INFO",
     "message": "JSON generation completed without problems",
-    "file": "D:\\Program\\AndroidStudioProject\\BaktiLabB201\\OpenCV451\\libcxx_helper\\CMakeLists.txt",
+    "file": "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
     "tag": "debug|x86"
   }
 ]

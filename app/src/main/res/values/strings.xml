@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">OpenCV Test</string>
     <string name="opencv_demo">OpenCV Camera\nDemo</string>
+    <string name="previous">Previous</string>
+    <string name="selamat_datang">Selamat Datang!</string>
+    <string name="semester">Semester 1</string>
+    <string name="test_camera">Test Camera</string>
 </resources>
