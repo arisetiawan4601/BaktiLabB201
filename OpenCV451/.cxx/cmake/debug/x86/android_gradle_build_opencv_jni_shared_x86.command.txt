@@ -1,7 +1,7 @@
 Executable : /home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
 arguments : 
 -C
-/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86
+/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86
 opencv_jni_shared
 jvmArgs : 
 

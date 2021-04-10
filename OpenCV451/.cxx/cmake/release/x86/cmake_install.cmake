@@ -1,4 +1,4 @@
-# Install script for directory: /home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/libcxx_helper
+# Install script for directory: /home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/release/x86/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/.cxx/cmake/release/x86/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
