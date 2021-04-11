@@ -1,7 +1,7 @@
                 Executable : /home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
 arguments : 
--H/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/libcxx_helper
--DCMAKE_FIND_ROOT_PATH=/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/debug/prefab/x86_64/prefab
+-H/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper
+-DCMAKE_FIND_ROOT_PATH=/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/.cxx/cmake/debug/prefab/x86_64/prefab
 -DCMAKE_BUILD_TYPE=Debug
 -DCMAKE_TOOLCHAIN_FILE=/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake
 -DANDROID_ABI=x86_64
@@ -10,12 +10,12 @@ arguments :
 -DCMAKE_ANDROID_ARCH_ABI=x86_64
 -DCMAKE_ANDROID_NDK=/home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/build/intermediates/cmake/debug/obj/x86_64
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/build/intermediates/cmake/debug/obj/x86_64
 -DCMAKE_MAKE_PROGRAM=/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
 -DCMAKE_SYSTEM_NAME=Android
 -DCMAKE_SYSTEM_VERSION=21
 -DANDROID_STL=c++_shared
--B/home/arisetiawan4601/Dev/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86_64
+-B/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/.cxx/cmake/debug/x86_64
 -GNinja
 jvmArgs : 
 

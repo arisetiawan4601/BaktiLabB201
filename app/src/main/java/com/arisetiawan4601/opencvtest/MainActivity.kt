@@ -1,6 +1,7 @@
 package com.arisetiawan4601.opencvtest
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -13,8 +14,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val testCameraButton = findViewById<Button>(R.id.testCamera)
+        val intent = Intent(this, CameraViewActivity::class.java)
         testCameraButton.setOnClickListener {
-            testCamera()
+            startActivity(intent)
         }
     }
 
