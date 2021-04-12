@@ -19,6 +19,108 @@
   },
   {
     "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/build-tools/27.0.3/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/build-tools/30.0.3/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/emulator/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/ndk/21.1.6352462/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/patcher/v4/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/platform-tools/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/platforms/android-26/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/platforms/android-27/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/platforms/android-28/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/platforms/android-30/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/sources/android-26/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/sources/android-27/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/sources/android-28/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/sources/android-30/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/system-images/android-30/google_apis/x86/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/arisetiawan4601/Android/Sdk/tools/package.xml",
+    "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
     "message": "- CMake found in SDK at \u0027/home/arisetiawan4601/Android/Sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
     "file": "/home/arisetiawan4601/Dev/AndroidStudio/BaktiLabB201/OpenCV451/libcxx_helper/CMakeLists.txt",
     "tag": "debug|x86"

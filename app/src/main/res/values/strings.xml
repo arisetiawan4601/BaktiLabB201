@@ -13,4 +13,8 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="test_pdf">Test PDF</string>
+    <string name="buku_1">C++ For Dummies\n
+        Stephen Randy Davis
+        2014</string>
 </resources>

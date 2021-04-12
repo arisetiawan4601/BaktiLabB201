@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "774731094185",
+    "project_id": "baktilabb201",
+    "storage_bucket": "baktilabb201.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774731094185:android:cddb0c33ef11ac7024f1b8",
+        "android_client_info": {
+          "package_name": "com.arisetiawan4601.opencvtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774731094185-rvh2rl3ipv67p96a9pvl8fai46cq5lp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjaRiLWK8MDj-2aSBVbQXaIK2oVWNJBF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774731094185-rvh2rl3ipv67p96a9pvl8fai46cq5lp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
